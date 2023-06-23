@@ -132,7 +132,7 @@ h3{
 
 .box-3{
     /* border: 1px solid black; */
-    width: 28%;
+    width: 29%;
     float: left;
     margin: 2%;
 }
@@ -183,3 +183,6 @@ h3{
     display: inline;
     padding: 1%;
 }
+
+
+/* css for responsive size */

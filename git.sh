@@ -6,7 +6,7 @@ function push_to_github() {
     git add .
 
     # Commit the changes
-    git commit -m "Auto commit"
+    git commit -m "Update repo"
 
     # Push to the remote repository
     git push
