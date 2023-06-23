@@ -136,7 +136,16 @@ h3{
 }
 
 /* css for food menu */
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
 
-.food-menu box{
+.food-menu-box{
     border: 1px solid black;
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
 }
