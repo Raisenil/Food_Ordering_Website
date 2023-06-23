@@ -56,6 +56,7 @@ a:hover{
 }
 
 .btn-primary:hover{
+    color: white;
     background-color: #ff4757;
 }
 
@@ -148,4 +149,9 @@ h3{
     padding: 2%;
     float: left;
     background-color: white;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: ;
 }
