@@ -6,7 +6,7 @@
 }
 
 .container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width:80%;
     margin: 0 auto;
     padding: 1%;
@@ -63,6 +63,7 @@ a:hover{
 h2{
     color: #2f3542;
     font-size: 2rem;
+    margin-bottom: 2%;
 }
 
 h3{
@@ -87,7 +88,7 @@ h3{
 
 /* css for logo */
 .logo{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 10%;
     float: left;
 }
@@ -130,7 +131,7 @@ h3{
 }
 
 .box-3{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 28%;
     float: left;
     margin: 2%;
@@ -143,7 +144,7 @@ h3{
 }
 
 .food-menu-box{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 43%;
     margin: 1%;
     padding: 2%;
