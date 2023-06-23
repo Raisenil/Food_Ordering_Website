@@ -55,6 +55,11 @@ a:hover{
     background-color: #ff4757;
 }
 
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+}
+
 /* css for navbar */
 
 /* css for logo */
@@ -94,4 +99,13 @@ a:hover{
     font-size: 1rem;
     border: none;
     border-radius: 5px;
+}
+
+/* css for categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    
 }
