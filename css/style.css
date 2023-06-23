@@ -149,9 +149,36 @@ h3{
     padding: 2%;
     float: left;
     background-color: white;
+    border-radius: 15px;
 }
 
 .food-menu-img{
     width: 20%;
-    float: ;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2%;
+}
+
+.food-detail{
+    font-size: 1rem;
+    color:#747d8c;
+}
+
+/* css for social */
+.social ul{
+    list-style-type: none;
+}
+
+.social ul li{
+    display: inline;
+    padding: 1%;
 }
