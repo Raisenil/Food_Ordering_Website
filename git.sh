@@ -18,5 +18,5 @@ while true; do
     push_to_github
 
     # Sleep for 5 minutes
-    sleep 1200
+    sleep 600
 done
