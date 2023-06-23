@@ -16,6 +16,10 @@
     width: 100%;
 }
 
+.img-curve{
+    border-radius: 15%;
+}
+
 .text-right{
     text-align: right;
 }
@@ -58,6 +62,24 @@ a:hover{
 h2{
     color: #2f3542;
     font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+.text-white{
+    color: white;
 }
 
 /* css for navbar */
@@ -107,7 +129,7 @@ h2{
 }
 
 .box-3{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 28%;
     float: left;
     margin: 2%;
