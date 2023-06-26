@@ -1,0 +1,59 @@
+# Food Ordering System Documentation
+
+## Table of Contents
+1. Introduction
+2. System Overview
+3. User Roles
+4. Features
+5. User Interface
+6. Admin Panel
+7. Deployment
+8. Conclusion
+
+## 1. Introduction
+The Food Ordering System is a web-based application that allows users to order food online from various restaurants. It provides a convenient way for users to browse through menus, place orders, and make payments. The system also includes an admin panel that allows restaurant owners or administrators to manage menus, track orders, and perform other administrative tasks.
+
+## 2. System Overview
+The Food Ordering System consists of two main components: the user interface and the admin panel. The user interface is accessible to customers who can browse restaurants, view menus, place orders, and make payments. The admin panel, on the other hand, is only accessible to authorized administrators and provides functionality for managing restaurants, menus, orders, and user accounts.
+
+## 3. User Roles
+The system supports two main user roles:
+
+- **Customer**: Customers can browse restaurants, view menus, add items to the cart, place orders, make payments, and track their order status.
+- **Administrator**: Administrators have access to the admin panel, where they can manage restaurants, menus, orders, and user accounts. They can add new restaurants, update menus, process orders, and perform other administrative tasks.
+
+## 4. Features
+The Food Ordering System offers the following features:
+
+### For Customers:
+- Browse restaurants: Users can search and browse restaurants based on location, cuisine, or restaurant name.
+- View menus: Users can view detailed menus of restaurants, including item descriptions, prices, and special offers.
+- Add items to the cart: Users can add desired items to their cart for ordering.
+- Place orders: Users can review their cart, specify delivery details, and place orders.
+- Make payments: Users can securely make payments online using various payment methods.
+- Track order status: Users can track the status of their orders, including estimated delivery times.
+
+### For Administrators:
+- Restaurant management: Administrators can add new restaurants, update restaurant details (such as name, location, and contact information), and deactivate restaurants if necessary.
+- Menu management: Administrators can add, update, and delete items from the menus of restaurants.
+- Order management: Administrators can view and process incoming orders, update order status, and notify customers of any changes.
+- User management: Administrators can manage user accounts, including creating new accounts, editing user details, and deactivating user accounts if required.
+
+## 5. User Interface
+The user interface provides an intuitive and user-friendly design to enhance the user experience. It includes the following pages:
+
+- Home page: Displays featured restaurants and offers.
+- Restaurant listing page: Lists restaurants based on user preferences.
+- Restaurant details page: Shows detailed information about a particular restaurant, including its menu and contact details.
+- Menu page: Displays the menu items of a selected restaurant.
+- Cart page: Shows the items added to the cart and allows users to review and modify their order before placing it.
+- Checkout page: Enables users to provide delivery details, select payment options, and confirm their order.
+- Order tracking page: Allows users to track the status of their placed orders.
+
+## 6. Admin Panel
+The admin panel provides an interface for administrators to manage the system. It includes the following sections:
+
+- Dashboard: Provides an overview of key system statistics, such as the number of active restaurants, pending orders, and registered users.
+- Restaurant management: Allows administrators to add new restaurants, update restaurant details, and deactivate restaurants if necessary.
+- Menu management: Enables administrators to add, update, and delete items from restaurant menus.
+- Order management: Provides a comprehensive
