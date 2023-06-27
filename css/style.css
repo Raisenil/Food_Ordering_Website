@@ -216,18 +216,6 @@ fieldset{
 
 /* css for contact */
 
-.form{
-    grid-area: form;
-}
-
-.info{
-    grid-area: info;
-}
-
-.map{
-    grid-area: map;
-}
-
 .contact{
     padding: 40px;
 }
@@ -242,6 +230,10 @@ fieldset{
     "form map";
     grid-gap: 20px;
     margin-top: 20px;
+}
+
+.form{
+    grid-area: form;
 }
 
 .formBox{
@@ -296,6 +288,20 @@ fieldset{
     font-weight: 500;
     cursor: pointer;
     padding: 14px 15px;
+}
+
+.info{
+    grid-area: info;
+}
+
+.info .infoBox div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.map{
+    grid-area: map;
 }
 
 
