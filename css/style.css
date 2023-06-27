@@ -413,4 +413,8 @@ fieldset{
     .inputBox{
         width: 100%;
     }
+
+    .contact{
+        padding: 30px;
+    }
 }
