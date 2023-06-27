@@ -214,6 +214,15 @@ fieldset{
     font-weight: bold;
 }
 
+/* css for contact */
+.formBox{
+    position: relative;
+    width: 100%;
+}
+
+.formBox .row50{
+    display: flex;
+    gap: 20px;
 
 /* css for responsive size */
 
