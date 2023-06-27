@@ -265,7 +265,13 @@ fieldset{
 }
 
 .inputBox input[type="submit"]{
-    
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
 }
 
 
