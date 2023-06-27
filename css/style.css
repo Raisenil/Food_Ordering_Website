@@ -242,7 +242,12 @@ fieldset{
     font-weight: 500;
 }
 
-.inputBox input
+.inputBox input{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333 ;
+}
 /* css for responsive size */
 
 @media only screen and (max-width: 768px){
