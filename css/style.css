@@ -325,7 +325,7 @@ fieldset{
 
 /* css for responsive size */
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 991px){
     .logo{
         width: 80%;
         float: none;
@@ -382,6 +382,9 @@ fieldset{
         width: 100%;
     }
 
+    .contact{
+        padding: 20px;
+    }
     .box{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -389,5 +392,25 @@ fieldset{
         "form"
         "info"
         "map";
+    }
+
+    .map{
+        min-height: 100%;
+        padding: 0;
+    }
+
+    .map iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+    .formBox .row50{
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .inputBox{
+        width: 100%;
     }
 }
