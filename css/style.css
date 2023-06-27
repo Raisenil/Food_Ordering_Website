@@ -276,7 +276,7 @@ fieldset{
     outline: none;
     border: 1px solid #333 ;
     resize: none;
-    min-height: 220px;
+    min-height: 250px;
     margin-bottom: 10px;
 }
 
@@ -320,7 +320,7 @@ fieldset{
 
 .map iframe{
     width: 100%;
-    height: 80%;
+    height: 65%;
 }
 
 /* css for responsive size */
@@ -380,5 +380,14 @@ fieldset{
     
     .order{
         width: 100%;
+    }
+
+    .box{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "form"
+        "info"
+        "map";
     }
 }
