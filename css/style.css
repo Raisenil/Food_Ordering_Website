@@ -223,7 +223,26 @@ fieldset{
 .formBox .row50{
     display: flex;
     gap: 20px;
+}
 
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.formBox .row100 .inputBox{
+    width: 100%;
+}
+
+.inputBox span{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.inputBox input
 /* css for responsive size */
 
 @media only screen and (max-width: 768px){
