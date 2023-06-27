@@ -215,6 +215,11 @@ fieldset{
 }
 
 /* css for contact */
+
+.contact-form h3{
+    padding-top: 25px;
+}
+
 .formBox{
     position: relative;
     width: 100%;
@@ -248,6 +253,22 @@ fieldset{
     outline: none;
     border: 1px solid #333 ;
 }
+
+.inputBox textarea{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333 ;
+    resize: none;
+    min-height: 220px;
+    margin-bottom: 10px;
+}
+
+.inputBox input[type="submit"]{
+    
+}
+
+
 /* css for responsive size */
 
 @media only screen and (max-width: 768px){
