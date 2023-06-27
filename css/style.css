@@ -384,7 +384,9 @@ fieldset{
 
     .contact{
         padding: 20px;
+        width: 70%;
     }
+    
     .box{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -397,6 +399,7 @@ fieldset{
     .map{
         min-height: 100%;
         padding: 0;
+        width: 80%;
     }
 
     .map iframe{
@@ -412,9 +415,5 @@ fieldset{
 
     .inputBox{
         width: 100%;
-    }
-
-    .contact{
-        padding: 30px;
     }
 }
