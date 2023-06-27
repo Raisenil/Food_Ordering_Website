@@ -269,4 +269,8 @@ fieldset{
     .social{
         padding: 5% 0;
     }
+    
+    .order{
+        width: 100%;
+    }
 }
