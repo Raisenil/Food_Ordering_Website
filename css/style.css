@@ -220,6 +220,34 @@ fieldset{
     padding-top: 25px;
 }
 
+.form{
+    grid-area: form;
+}
+
+.info{
+    grid-area: info;
+}
+
+.map{
+    grid-area: map;
+}
+
+.contact{
+    padding: 40px;
+    background: blue;
+}
+
+.box{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas: 
+    "form info"
+    "form map";
+    grid
+}
+
 .formBox{
     position: relative;
     width: 100%;
