@@ -10,19 +10,21 @@
 <body>
     <!-- menu start -->
     <div class="menu">
-        Menu
+        <div class="wrapper">Menu</div>
     </div>
     <!-- menu end -->
 
     <!-- main start -->
     <div class="main-content">
-        main-content
+        <div class="wrapper">Main</div>
     </div>
     <!-- main end -->
 
     <!-- footer start -->
     <div class="footer">
-        footer
+        <div class="wrapper">
+        <p class="text-center">All rights reservers. Developed by <a href="https://github.com/Raisenil" target="_blank">Raisenil</a> </p>
+        </div>
     </div>
     <!-- footer end -->
 </body>
