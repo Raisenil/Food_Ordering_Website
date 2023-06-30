@@ -16,3 +16,20 @@
 .text-center{
     text-align: center;
 }
+
+/* css for menu */
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+/* css for footer */
+
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
