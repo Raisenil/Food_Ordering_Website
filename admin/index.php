@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- menu start -->
-    <div class="menu">
+    <div class="menu text-center">
         <div class="wrapper">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -24,7 +24,9 @@
 
     <!-- main start -->
     <div class="main-content">
-        <div class="wrapper">Main</div>
+        <div class="wrapper">
+        <strong>DASHBOARD</strong>
+        </div>
     </div>
     <!-- main end -->
 
