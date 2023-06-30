@@ -17,6 +17,11 @@
     text-align: center;
 }
 
+.clearfix{
+    float: none;
+    clear: both;
+}
+
 /* css for menu */
 
 .menu{
@@ -47,6 +52,16 @@
 .main-content{
     /* margin: 1% 0; */
     background-color: #f1f2f6;
+}
+
+.col-4{
+    width: 20%;
+    background-color: white;
+    border: 1px solid #a4b0be;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 2%;
+    float: left;
 }
 
 /* css for footer */

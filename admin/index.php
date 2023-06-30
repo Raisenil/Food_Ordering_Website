@@ -25,7 +25,33 @@
     <!-- main start -->
     <div class="main-content">
         <div class="wrapper">
-        <strong>DASHBOARD</strong>
+            <s>DASHBOARD</s>
+
+            <div class="col-4 text-center">
+                <h1>5</h1>
+                <br>
+                categories
+            </div>
+
+            <div class="col-4 text-center">
+                <h1>5</h1>
+                <br>
+                categories
+            </div>
+
+            <div class="col-4 text-center">
+                <h1>5</h1>
+                <br>
+                categories
+            </div>
+
+            <div class="col-4 text-center">
+                <h1>5</h1>
+                <br>
+                categories
+            </div>
+
+            <div class="clearfix"></div>
         </div>
     </div>
     <!-- main end -->
