@@ -1,4 +1,7 @@
-<?php include("partials/menu.php")?>
+<?php 
+    $pageTitle="Food Order Website - Home Page";
+    include("partials/menu.php");
+?>
 
     <!-- main start -->
     <div class="main-content">

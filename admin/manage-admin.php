@@ -1,5 +1,7 @@
-<?php include("partials/menu.php")?>
-
+<?php 
+    $pageTitle="Food Order Website - Manage-Admin Page";
+    include("partials/menu.php");
+?>
     <!-- main start -->
     <div class="main-content">
         <div class="wrapper">
