@@ -6,9 +6,10 @@
     <div class="main-content">
         <div class="wrapper">
             <h1>Manage Admin</h1>
-
+            <br><br>
             <!-- Button to add Admin -->
             <a href="#" class="btn-primary">Add Admin</a>
+            <br><br><br>
 
             <table class="tbl-full">
                 <tr>
