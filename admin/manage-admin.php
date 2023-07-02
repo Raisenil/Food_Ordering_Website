@@ -24,8 +24,8 @@
                     <td>Raise nil</td>
                     <td>Raise</td>
                     <td>
-                        Update Admin
-                        Delete Admin
+                        <a href="#" class="btn-secondary">Update Admin</a>
+                        <a href="#" class="btn-red">Delete Admin</a>
                     </td>
                 </tr>
                 <tr>
@@ -33,8 +33,8 @@
                     <td>Raise nil</td>
                     <td>Raise</td>
                     <td>
-                        Update Admin
-                        Delete Admin
+                    <a href="#" class="btn-secondary">Update Admin</a>
+                        <a href="#" class="btn-red">Delete Admin</a>
                     </td>
                 </tr>
                 <tr>
@@ -42,8 +42,8 @@
                     <td>Raise nil</td>
                     <td>Raise</td>
                     <td>
-                        Update Admin
-                        Delete Admin
+                    <a href="#" class="btn-secondary">Update Admin</a>
+                        <a href="#" class="btn-red">Delete Admin</a>
                     </td>
                 </tr>
                 <tr>
@@ -51,8 +51,8 @@
                     <td>Raise nil</td>
                     <td>Raise</td>
                     <td>
-                        Update Admin
-                        Delete Admin
+                    <a href="#" class="btn-secondary">Update Admin</a>
+                        <a href="#" class="btn-red">Delete Admin</a>
                     </td>
                 </tr>
             </table>

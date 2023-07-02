@@ -50,7 +50,20 @@ table tr td{
 }
 
 .btn-secondary{
-    background-color: #1e90ff;
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-red{
+    background-color: #ff6b81;
     padding: 1%;
     color: white;
     text-decoration: none;
@@ -58,10 +71,9 @@ table tr td{
     border-radius: 5px;
 }
 
-.btn-primary:hover{
-    background-color: #3742fa;
+.btn-red:hover{
+    background-color: #ff4757;
 }
-
 /* css for menu */
 
 .menu{
