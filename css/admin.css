@@ -22,6 +22,10 @@
     clear: both;
 }
 
+.tbl-full{
+    width: 100%;
+}
+
 /* css for menu */
 
 .menu{
