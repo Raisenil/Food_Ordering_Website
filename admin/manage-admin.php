@@ -28,42 +28,17 @@
                     <th>Actions</th>
                 </tr>
 
-                <tr>
-                    <td>1.</td>
-                    <td>Raise nil</td>
-                    <td>Raise</td>
-                    <td>
-                        <a href="#" class="btn-secondary">Update Admin</a>
-                        <a href="#" class="btn-red">Delete Admin</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>2.</td>
-                    <td>Raise nil</td>
-                    <td>Raise</td>
-                    <td>
-                    <a href="#" class="btn-secondary">Update Admin</a>
-                        <a href="#" class="btn-red">Delete Admin</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>3.</td>
-                    <td>Raise nil</td>
-                    <td>Raise</td>
-                    <td>
-                    <a href="#" class="btn-secondary">Update Admin</a>
-                        <a href="#" class="btn-red">Delete Admin</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>4.</td>
-                    <td>Raise nil</td>
-                    <td>Raise</td>
-                    <td>
-                    <a href="#" class="btn-secondary">Update Admin</a>
-                        <a href="#" class="btn-red">Delete Admin</a>
-                    </td>
-                </tr>
+                <?php 
+                    // query to display all admin user
+                    $sql = "SELECT * FROM tbl_admin";
+
+                    $res=mysqli_query($conn, $sql);
+
+                    // check if the sql executed
+                    if($res=TRUE){
+                        
+                    }
+                ?>
             </table>
 
             <div class="clearfix"></div>

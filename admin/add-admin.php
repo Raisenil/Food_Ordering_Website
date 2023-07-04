@@ -8,6 +8,7 @@
         <h1>Add Admin</h1>
         
         <br><br>
+        
         <?php 
             if (isset($_SESSION['add'])) {
                 echo $_SESSION['add']; //displaying Session msg
