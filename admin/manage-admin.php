@@ -36,7 +36,15 @@
 
                     // check if the sql executed
                     if($res=TRUE){
-                        
+                        $count = mysqli_num_rows($res); //count rows in database
+
+                        if($count>0){
+                            while($rows=mysqli_fetch_assoc($res)){
+                                $id=$rows['id']
+                            }
+                        }else{
+
+                        }
                     }
                 ?>
             </table>
