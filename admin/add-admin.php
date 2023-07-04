@@ -41,11 +41,17 @@
 
 <?php 
     if(isset($_POST['submit'])){
-        echo $full_name = $_POST['full_name'];
-        echo $username = $_POST['username'];
-        echo $password = $_POST['password'];
+        $full_name = $_POST['full_name'];
+        $username = $_POST['username'];
+        $password = md5($_POST['password']); //password encryped with MD5
 
 
-        $sq
+        $sql = "INSERT INTO tbl_admin SET
+            full_name = '$full_name',
+            username = '$username',
+            password = '$password'
+            ";
+
+            echo $sql;
     }
 ?>
