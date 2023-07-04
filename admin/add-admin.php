@@ -8,6 +8,12 @@
         <h1>Add Admin</h1>
         
         <br><br>
+        <?php 
+            if (isset($_SESSION['add'])) {
+                echo $_SESSION['add']; //displaying Session msg
+                unset($_SESSION['add']); //Removing Session msg
+            }
+        ?>
 
         <form action="" method="POST">
             <table class="tbl-30">
@@ -54,7 +60,7 @@
 
             $res = mysqli_query($conn,$sql) or die(mysqli_error());
 
-            
+
             if($res==true){
                 // echo "Data inserted";
                 $_SESSION['add']="Admin Added Successfully";
