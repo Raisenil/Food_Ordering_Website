@@ -35,12 +35,28 @@
                     $res=mysqli_query($conn, $sql);
 
                     // check if the sql executed
-                    if($res=TRUE){
+                    if($res==TRUE){
                         $count = mysqli_num_rows($res); //count rows in database
 
                         if($count>0){
                             while($rows=mysqli_fetch_assoc($res)){
-                                $id=$rows['id']
+                                $id=$rows['id'];
+                                $full_name=$rows['full_name'];
+                                $username=$rows['username'];
+                            ?>
+
+                            <tr>
+                                <td><?php echo $id?></td>
+                                <td><?php echo $full_name?></td>
+                                <td><?php echo $username?></td>
+                                <td>
+                                    <a href="#" class="btn-secondary">Update Admin</a>
+                                    <a href="#" class="btn-red">Delete Admin</a>
+                                </td>
+                            </tr>
+
+                            <?php
+                            
                             }
                         }else{
 
