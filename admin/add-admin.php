@@ -39,3 +39,8 @@
 
 <?php include("partials/footer.php");?>
 
+<?php 
+    if(isset($_POST['submit'])){
+        
+    }
+?>
