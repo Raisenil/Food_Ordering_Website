@@ -53,5 +53,11 @@
             ";
 
             $res = mysqli_query($conn,$sql) or die(mysqli_error());
+
+            if($res==true){
+                // echo "Data inserted";
+            }else{
+                // echo "failed to insert";
+            }
     }
 ?>
