@@ -52,6 +52,6 @@
             password = '$password'
             ";
 
-            echo $sql;
+            $res = mysqli_query() or die(mysqli_error());
     }
 ?>
