@@ -43,7 +43,7 @@
     if(isset($_POST['submit'])){
         $full_name = $_POST['full_name'];
         $username = $_POST['username'];
-        $password = md5($_POST['password']); //password encryped with MD5
+        $password = md5($_POST['password']); //password encrypted with MD5
 
 
         $sql = "INSERT INTO tbl_admin SET
@@ -54,10 +54,17 @@
 
             $res = mysqli_query($conn,$sql) or die(mysqli_error());
 
+            
             if($res==true){
                 // echo "Data inserted";
+                $_SESSION['add']="Admin Added Successfully";
+                // redirect to manage-admin page
+                header('location:'.SITEURL.'admin/manage-admin.php');
             }else{
                 // echo "failed to insert";
+                $_SESSION['add']="Failed to Add Admin";
+                // redirect to add-admin page
+                header('location:'.SITEURL.'admin/add-admin.php');
             }
     }
 ?>

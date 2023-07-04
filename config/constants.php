@@ -1,5 +1,11 @@
 <?php 
+    // session start
+    session_start();
 
+    // Home URL
+    define('SITEURL', 'http://localhost/Food_Ordering_Website/');
+
+    // Databse
     define('LOCALHOST','localhost');
     define('DB_USERNAME','root');
     define('DB_PASSWORD','');
