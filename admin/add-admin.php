@@ -13,17 +13,17 @@
             <table class="tbl-30">
                 <tr>
                     <td>Full Name:</td>
-                    <td><input type="text" name="ful_name" placeholder="Enter Your Name"></td>
+                    <td><input type="text" name="full_name" placeholder="Enter Your Name" required></td>
                 </tr>
 
                 <tr>
                     <td>Username:</td>
-                    <td><input type="text" name="username" placeholder="Your Username"></td>
+                    <td><input type="text" name="username" placeholder="Your Username" required></td>
                 </tr>
 
                 <tr>
                     <td>Password:</td>
-                    <td><input type="password" name="password" placeholder="Enter Your Password"></td>
+                    <td><input type="password" name="password" placeholder="Enter Your Password" required></td>
                 </tr>
 
                 <tr>
@@ -41,6 +41,11 @@
 
 <?php 
     if(isset($_POST['submit'])){
-        
+        echo $full_name = $_POST['full_name'];
+        echo $username = $_POST['username'];
+        echo $password = $_POST['password'];
+
+
+        $sq
     }
 ?>
