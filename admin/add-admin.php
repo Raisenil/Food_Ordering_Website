@@ -52,6 +52,7 @@
             password = '$password'
             ";
 
-            $res = mysqli_query() or die(mysqli_error());
+            $conn = mysqli_connect('localhost','root','') or die(mysqli_error());
+            $res = mysqli_query($conn,$sql) or die(mysqli_error());
     }
 ?>
