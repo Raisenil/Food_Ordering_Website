@@ -46,9 +46,48 @@
         
         $id = $_POST['id'];
         $current_password= md5($_POST['current_password']);
-        $new_password= md5($_POST['current_password']);
-        $confirem_password= md5($_POST['current_password']);
+        $new_password= md5($_POST['new_password']);
+        $confirm_password= md5($_POST['confirm_password']);
 
+
+        $sql = "SELECT * FROM tbl_admin WHERE id = '$id' AND password = '$current_password'";
+
+        $res = mysqli_query($conn,$sql);
+
+        if($res == true){
+            $count = mysqli_num_rows($res);
+
+            if($count==1){
+                if($new_password==$confirm_password){
+                    // echo "Password Match";
+                    $sql2 = "UPDATE tbl_admin SET 
+                    password = '$new_password' 
+                    WHERE id = '$id'
+                    ";
+
+                    $res2 = mysqli_query($conn,$sql2);
+                    
+                    if($res2==true){
+                        $_SESSION['change-pwd'] = "<div class='success'>Password Changed Successfully.</div>";
+                
+                        header('location:'.SITEURL.'admin/manage-admin.php');
+                    }else{
+                        $_SESSION['change-pwd'] = "<div class='error'>Failed to change Password.</div>";
+                
+                        header('location:'.SITEURL.'admin/manage-admin.php');
+                    }
+
+                }else{
+                    $_SESSION['pwd-not-match'] = "<div class='error'>Password Did Not match.</div>";
+                
+                    header('location:'.SITEURL.'admin/manage-admin.php');
+                }
+            }else{
+                $_SESSION['user-not-found'] = "<div class='error'>User Not Found. </div>";
+                
+                header('location:'.SITEURL.'admin/manage-admin.php');
+            }
+        }
     }
     
 ?>
