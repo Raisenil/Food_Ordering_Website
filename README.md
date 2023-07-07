@@ -8,7 +8,7 @@ for color
   - [cn](https://flatuicolors.com/palette/cn)
 
 for icon
-- https://icons8.com/
+- [icons8](https://icons8.com/)
 - https://ionic.io/ionicons
 
 
