@@ -64,12 +64,12 @@
 
             if($res==true){
                 // echo "Data inserted";
-                $_SESSION['add']="Admin Added Successfully";
+                $_SESSION['add']="<div class='success'>Admin Added Successfully</div>";
                 // redirect to manage-admin page
                 header('location:'.SITEURL.'admin/manage-admin.php');
             }else{
                 // echo "failed to insert";
-                $_SESSION['add']="Failed to Add Admin";
+                $_SESSION['add']="<div class='error'>Failed to Add Admin</div>";
                 // redirect to add-admin page
                 header('location:'.SITEURL.'admin/add-admin.php');
             }
