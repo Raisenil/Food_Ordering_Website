@@ -42,6 +42,14 @@
 </div>
 
 <?php 
+    if(isset($_POST['submit'])){
+        
+        $id = $_POST['id'];
+        $current_password= md5($_POST['current_password']);
+        $new_password= md5($_POST['current_password']);
+        $confirem_password= md5($_POST['current_password']);
+
+    }
     
 ?>
 
