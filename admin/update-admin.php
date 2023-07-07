@@ -55,7 +55,27 @@
 
 <?php 
     if(isset($_POST['submit'])){
-        
+        $id = $_POST['id'];
+        $full_name = $_POST['full_name'];
+        $username = $_POST['username'];
+
+        $sql = "UPDATE tbl_admin SET
+        full_name= '$full_name',
+        username = '$username
+        WHERE id = '$id'
+        ";
+
+        $res = mysqli_query($conn,$sql);
+
+        if($res == true){
+            $_SESSION['update'] = "<div class='success'>Admin update Successfully.</div>";
+
+            header('location:'.SITEURL.'admin/manage-admin.php');
+        }else{
+            $_SESSION['update'] = "<div class='error'>Failed to update Admin.</div>";
+
+            header('location:'.SITEURL.'admin/manage-admin.php');
+        }
     }
 ?>
 
