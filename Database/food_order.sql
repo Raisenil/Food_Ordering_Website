@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 04, 2023 at 07:32 PM
+-- Generation Time: Jul 08, 2023 at 01:05 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -40,9 +40,12 @@ CREATE TABLE `tbl_admin` (
 
 INSERT INTO `tbl_admin` (`id`, `full_name`, `username`, `password`) VALUES
 (1, 'Wing Guy', 'hojahalygo', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
-(2, 'Kiayada Wilkerson', 'zumibuh', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
-(3, 'Grant Bentley', 'begedowol', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
-(4, 'Stone Maddox', 'qegorar', 'f3ed11bbdb94fd9ebdefbaf646ab94d3');
+(11, 'Brenda Turner', 'fucezuh', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
+(15, 'Darryl Carney', 'levifufepe', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
+(16, 'Maggy Henry', 'pixexivaw', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
+(18, 'Kareem Fuller', 'pofyl', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
+(19, 'Arsenio Burke', 'sehigeryc', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
+(24, 'MD. Raisul Islam Niloy', 'Raisenil', '21232f297a57a5a743894a0e4a801fc3');
 
 -- --------------------------------------------------------
 
@@ -131,7 +134,7 @@ ALTER TABLE `tbl_order`
 -- AUTO_INCREMENT for table `tbl_admin`
 --
 ALTER TABLE `tbl_admin`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `tbl_category`
