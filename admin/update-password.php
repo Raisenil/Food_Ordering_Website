@@ -17,7 +17,7 @@
             <table class="tbl-30">
                 <tr>
                     <td>Current Password: </td>
-                    <td><input type="password" name="current_password" placeholder="Old Password" required></td>
+                    <td><input type="password" name="current_password" placeholder="Current Password" required></td>
                 </tr>
 
                 <tr>
@@ -32,12 +32,17 @@
 
                 <tr>
                     <td colspan="2">
-                        <input type="submit" name="submit" value="change password">
+                        <input type="hidden" name="id" value="<?php echo $id;?>">
+                        <input type="submit" name="submit" value="change password" class="btn-secondary">
                     </td>
                 </tr>
             </table>
         </form>
     </div>
 </div>
+
+<?php 
+    
+?>
 
 <?php include("partials/footer.php");?>
