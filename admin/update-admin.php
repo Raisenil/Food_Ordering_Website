@@ -60,12 +60,12 @@
         $username = $_POST['username'];
 
         $sql = "UPDATE tbl_admin SET
-        full_name= '$full_name',
-        username = '$username
+        full_name = '$full_name',
+        username = '$username'
         WHERE id = '$id'
         ";
 
-        $res = mysqli_query($conn,$sql);
+        $res = mysqli_query($conn, $sql);
 
         if($res == true){
             $_SESSION['update'] = "<div class='success'>Admin update Successfully.</div>";
