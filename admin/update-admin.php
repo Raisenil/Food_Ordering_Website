@@ -21,7 +21,8 @@
                     if($count==1){
                         $row=mysqli_fetch_assoc($res);
 
-                        
+                        $full_name =$row['full_name'];
+                        $username=$row['username'];
                     }else{
                         header('location:'.SITEURL.'admin/manage-admin.php');
                     }
@@ -32,12 +33,12 @@
                 <table class="tbl-30">
                     <tr>
                         <td>Full Name:</td>
-                        <td><input type="text" name="full_name" value=" " required></td>
+                        <td><input type="text" name="full_name" value="<?php echo $full_name; ?>" required></td>
                     </tr>
 
                     <tr>
                         <td>Username:</td>
-                        <td><input type="text" name="username" value="" required></td>
+                        <td><input type="text" name="username" value="<?php echo $username; ?>" required></td>
                     </tr>
 
                     <tr>
