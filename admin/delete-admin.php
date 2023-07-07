@@ -9,7 +9,7 @@
 
     if($res == true){
         // echo "Admin Deleted";
-        $_SESSION['delete'] = "Admin Deleted Successfully";
+        $_SESSION['delete'] = " <div class='success'>Admin Deleted Successfully. </div>";
         header('location:'.SITEURL.'admin/manage-admin.php');
     }else{
         // echo "Failed ro Delete Admin";
