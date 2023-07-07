@@ -11,7 +11,7 @@
             <?php 
                 $id=$_GET['id'];
 
-                $sql="SELECT * FROM tbl_admin:";
+                $sql="SELECT * FROM tbl_admin WHERE id=$id";
 
                 $res=mysqli_query($conn, $sql);
 
@@ -19,7 +19,9 @@
                     $count = mysqli_num_rows($res);
 
                     if($count==1){
-                        echo "Admin Available"
+                        $row=mysqli_fetch_assoc($res);
+
+                        
                     }else{
                         header('location:'.SITEURL.'admin/manage-admin.php');
                     }
