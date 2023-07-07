@@ -9,7 +9,7 @@ for color
 
 for icon
 - [icons8](https://icons8.com/)
-- https://ionic.io/ionicons
+- [iconic]https://ionic.io/ionicons
 
 
 # Project Overview: Food Ordering Website
