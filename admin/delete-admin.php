@@ -13,7 +13,7 @@
         header('location:'.SITEURL.'admin/manage-admin.php');
     }else{
         // echo "Failed ro Delete Admin";
-        $_SESSION['delete'] = "Failed to Delete Admin. Try Again Later.";
+        $_SESSION['delete'] = " <div class='error'>Failed to Delete Admin. Try Again Later. </div>";
         header('location:'.SITEURL.'admin/manage-admin.php');
     }
 ?>
