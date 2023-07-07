@@ -1,1 +1,1 @@
-delete admin
+delete admin 2
