@@ -10,10 +10,10 @@
     if($res == true){
         // echo "Admin Deleted";
         $_SESSION['delete'] = "Admin Deleted Successfully";
-        header('localhost:'.SITEURL.'admin/manage-admin.php');
+        header('location:'.SITEURL.'admin/manage-admin.php');
     }else{
         // echo "Failed ro Delete Admin";
         $_SESSION['delete'] = "Failed to Delete Admin. Try Again Later.";
-        header('localhost:'.SITEURL.'admin/manage-admin.php');
+        header('location:'.SITEURL.'admin/manage-admin.php');
     }
 ?>
