@@ -13,10 +13,15 @@
                     echo $_SESSION['login']; //displaying Session msg
                     unset($_SESSION['login']); //Removing Session msg
                 }
+
+                if (isset($_SESSION['logged-in-Already'])) {
+                    echo $_SESSION['logged-in-Already']; 
+                    unset($_SESSION['logged-in-Already']);
+                }
             ?>
 
             <br><br>
-            
+
             <div class="col-4 text-center">
                 <h1>5</h1>
                 <br>

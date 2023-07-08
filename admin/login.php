@@ -1,4 +1,12 @@
-<?php include('../config/constants.php'); ?>
+<?php 
+    include('../config/constants.php'); 
+
+    if(isset($_SESSION['user'])){
+        $_SESSION['logged-in-Already'] = "<div class='error'>Logged In Already</div>";
+
+        header('location:'.SITEURL.'admin/');
+    }
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,6 +24,11 @@
             if (isset($_SESSION['login'])) {
                 echo $_SESSION['login']; //displaying Session msg
                 unset($_SESSION['login']); //Removing Session msg
+            }
+
+            if (isset($_SESSION['no-login-message'])) {
+                echo $_SESSION['no-login-message']; 
+                unset($_SESSION['no-login-message']); 
             }
         ?>
 
@@ -50,6 +63,8 @@
 
         if($count==1){
             $_SESSION['login'] = "<div class='success'>Login Successful</div>";
+            // check user is logged in
+            $_SESSION['user'] = $username;
 
             header('location:'.SITEURL.'admin/');
         }else{
