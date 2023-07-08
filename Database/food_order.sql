@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 08, 2023 at 01:05 AM
+-- Generation Time: Jul 08, 2023 at 10:20 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -45,7 +45,8 @@ INSERT INTO `tbl_admin` (`id`, `full_name`, `username`, `password`) VALUES
 (16, 'Maggy Henry', 'pixexivaw', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
 (18, 'Kareem Fuller', 'pofyl', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
 (19, 'Arsenio Burke', 'sehigeryc', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
-(24, 'MD. Raisul Islam Niloy', 'Raisenil', '21232f297a57a5a743894a0e4a801fc3');
+(24, 'MD. Raisul Islam Niloy', 'Raisenil', 'ce9a94c2bbbd8812d28654cf51a67865'),
+(25, 'Nayda Mccullough', 'tacuq', 'f3ed11bbdb94fd9ebdefbaf646ab94d3');
 
 -- --------------------------------------------------------
 
@@ -60,6 +61,13 @@ CREATE TABLE `tbl_category` (
   `featured` varchar(10) NOT NULL,
   `active` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+--
+-- Dumping data for table `tbl_category`
+--
+
+INSERT INTO `tbl_category` (`id`, `title`, `image_name`, `featured`, `active`) VALUES
+(1, 'Pizza', '', 'Yes', 'Yes');
 
 -- --------------------------------------------------------
 
@@ -134,13 +142,13 @@ ALTER TABLE `tbl_order`
 -- AUTO_INCREMENT for table `tbl_admin`
 --
 ALTER TABLE `tbl_admin`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT for table `tbl_category`
 --
 ALTER TABLE `tbl_category`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `tbl_food`
