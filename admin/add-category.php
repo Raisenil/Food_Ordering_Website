@@ -14,6 +14,11 @@
                 echo $_SESSION['add']; 
                 unset($_SESSION['add']); 
             }
+
+            if (isset($_SESSION['upload'])) {
+                echo $_SESSION['upload']; 
+                unset($_SESSION['upload']); 
+            }
         ?>
 
         <form action="" method="POST" enctype="multipart/form-data">
@@ -78,6 +83,8 @@
 
         if(isset($_FILES['image']['name'])){
             $image_name = $_FILES['image']['name'];
+
+            
             
             $source_path = $_FILES['image']['tmp_name'];
             
@@ -85,7 +92,15 @@
 
             $upload = move_uploaded_file($source_path,$destination_path);
 
-            // continue working from here
+            // check if image upload done successfully
+            if($upload==false){
+                $_SESSION['upload'] = "<div class='error'> Failed to Upload Image. </div>";
+
+                header('location:'.SITEURL.'admin/add-category.php');
+
+                die();
+            }
+
 
         }else{
             $image_name = "";
@@ -93,6 +108,7 @@
 
         $sql = "INSERT INTO tbl_category SET
             title = '$title',
+            image_name = '$image_name',
             featured = '$featured',
             active = '$active'
             ";
