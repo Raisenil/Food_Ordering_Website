@@ -83,27 +83,28 @@
 
         if(isset($_FILES['image']['name'])){
             $image_name = $_FILES['image']['name'];
-
-            // check if the image name already exist
-            $ext = end(explode('.', $image_name));
-
-            $image_name = "Food_Category_".rand(000, 999). '.'.$ext;
-
-            $source_path = $_FILES['image']['tmp_name'];
             
-            $destination_path = "../images/category/".$image_name;
+            if($image_name != ""){
+                // check if the image name already exist
+                $ext = end(explode('.', $image_name));
 
-            $upload = move_uploaded_file($source_path,$destination_path);
+                $image_name = "Food_Category_".rand(000, 999).'.'.$ext;
 
-            // check if image upload done successfully
-            if($upload==false){
-                $_SESSION['upload'] = "<div class='error'> Failed to Upload Image. </div>";
+                $source_path = $_FILES['image']['tmp_name'];
+                
+                $destination_path = "../images/category/".$image_name;
 
-                header('location:'.SITEURL.'admin/add-category.php');
+                $upload = move_uploaded_file($source_path,$destination_path);
 
-                die();
+                // check if image upload done successfully
+                if($upload==false){
+                    $_SESSION['upload'] = "<div class='error'> Failed to Upload Image. </div>";
+
+                    header('location:'.SITEURL.'admin/add-category.php');
+
+                    die();
+                }
             }
-
 
         }else{
             $image_name = "";
