@@ -50,12 +50,12 @@
                         </td>
                         <td>
                             <?php 
-                                if($current_image!=" "){
+                                if($current_image != ""){
                                     ?>
-                                    <img src="" alt="">
+                                    <img src="<?php echo SITEURL;?>images/category/<?php echo $current_image;?>" width="150px">
                                     <?php
                                 }else{
-                                    echo"<div class='error'>Image Not Added.</div>"
+                                    echo "<div class='error'>Image Not Added.</div>";
                                 }
                             ?>
                         </td>
@@ -67,7 +67,7 @@
                             <input type="file" name="image">
                         </td>
                     </tr>
-
+<!-- Start from here -->
                     <tr>
                         <td>Featured:</td>
                         <td>
