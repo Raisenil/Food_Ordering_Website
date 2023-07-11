@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 10, 2023 at 09:43 PM
+-- Generation Time: Jul 11, 2023 at 09:44 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -64,7 +64,9 @@ CREATE TABLE `tbl_category` (
 --
 
 INSERT INTO `tbl_category` (`id`, `title`, `image_name`, `featured`, `active`) VALUES
-(2, 'Test Image', 'Web Design UI.png', 'Yes', 'Yes');
+(2, 'Test Image', 'Web Design UI.png', 'Yes', 'Yes'),
+(4, 'test2', '', 'Yes', 'Yes'),
+(5, 'MOMO', 'Food_Category_97.jpg', 'No', 'Yes');
 
 -- --------------------------------------------------------
 
@@ -145,7 +147,7 @@ ALTER TABLE `tbl_admin`
 -- AUTO_INCREMENT for table `tbl_category`
 --
 ALTER TABLE `tbl_category`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `tbl_food`
