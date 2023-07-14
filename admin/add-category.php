@@ -72,13 +72,13 @@
         if(isset($_POST['featured'])){
             $featured = $_POST['featured'];
         }else{
-            $featured = "NO";
+            $featured = "No";
         }
 
         if(isset($_POST['active'])){
             $active = $_POST['active'];
         }else{
-            $active = "NO";
+            $active = "No";
         }
 
         if(isset($_FILES['image']['name'])){
