@@ -1,5 +1,6 @@
 <?php 
     // session start
+    ob_start();
     session_start();
 
     // Home URL
