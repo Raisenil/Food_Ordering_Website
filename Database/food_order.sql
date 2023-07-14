@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 11, 2023 at 09:44 PM
+-- Generation Time: Jul 14, 2023 at 10:59 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -39,11 +39,11 @@ CREATE TABLE `tbl_admin` (
 --
 
 INSERT INTO `tbl_admin` (`id`, `full_name`, `username`, `password`) VALUES
-(11, 'Brenda Turner', 'fucezuh', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
 (15, 'Darryl Carney', 'levifufepe', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
 (18, 'Kareem Fuller', 'pofyl', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
 (24, 'MD. Raisul Islam Niloy', 'Raisenil', 'ce9a94c2bbbd8812d28654cf51a67865'),
-(25, 'Nayda Mccullough', 'tacuq', 'f3ed11bbdb94fd9ebdefbaf646ab94d3');
+(25, 'Nayda Mccullough', 'tacuq', 'f3ed11bbdb94fd9ebdefbaf646ab94d3'),
+(26, 'Roth Brooks', 'dibykagew', 'f3ed11bbdb94fd9ebdefbaf646ab94d3');
 
 -- --------------------------------------------------------
 
@@ -64,9 +64,8 @@ CREATE TABLE `tbl_category` (
 --
 
 INSERT INTO `tbl_category` (`id`, `title`, `image_name`, `featured`, `active`) VALUES
-(2, 'Test Image', 'Web Design UI.png', 'Yes', 'Yes'),
-(4, 'test2', '', 'Yes', 'Yes'),
-(5, 'MOMO', 'Food_Category_97.jpg', 'No', 'Yes');
+(5, 'MOMO', 'Food_Category_595.jpg', 'Yes', 'Yes'),
+(10, 'PIZZA', 'Food_Category_32.jpg', 'Yes', 'Yes');
 
 -- --------------------------------------------------------
 
@@ -84,6 +83,16 @@ CREATE TABLE `tbl_food` (
   `featured` varchar(10) NOT NULL,
   `active` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+--
+-- Dumping data for table `tbl_food`
+--
+
+INSERT INTO `tbl_food` (`id`, `title`, `description`, `price`, `image_name`, `category_id`, `featured`, `active`) VALUES
+(1, 'Nostrud culpa cumque', 'description', 309.00, '', 7, 'No', 'No'),
+(2, 'Ch Momo', 'description', 949.00, 'Food_Name_7612.jpg', 5, 'Yes', 'Yes'),
+(3, 'Ut incidunt quod qu', 'description', 982.00, '', 7, 'Yes', 'No'),
+(4, 'Dolorum sed ut vel s', 'description', 898.00, '', 5, 'No', 'No');
 
 -- --------------------------------------------------------
 
@@ -141,19 +150,19 @@ ALTER TABLE `tbl_order`
 -- AUTO_INCREMENT for table `tbl_admin`
 --
 ALTER TABLE `tbl_admin`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT for table `tbl_category`
 --
 ALTER TABLE `tbl_category`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `tbl_food`
 --
 ALTER TABLE `tbl_food`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `tbl_order`
