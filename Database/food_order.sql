@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 14, 2023 at 08:19 PM
+-- Generation Time: Jul 15, 2023 at 11:04 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -90,8 +90,9 @@ CREATE TABLE `tbl_food` (
 --
 
 INSERT INTO `tbl_food` (`id`, `title`, `description`, `price`, `image_name`, `category_id`, `featured`, `active`) VALUES
-(17, 'Iure harum dolore ad', 'Obcaecati commodi ofsdadfas', 38.00, 'Food_Name_8935.jpg', 11, 'Yes', 'Yes'),
-(18, 'Doloribus hic irure ', 'Commodi sed minim fu', 227.00, 'Food_Name_6672.jpg', 12, 'No', 'Yes');
+(17, 'Beef Burger', 'Introducing our mouthwatering beef burger: a juicy, handcrafted patty made from premium ground beef. Topped with fresh ingredients', 5.00, 'Food_Name_1916.jpg', 13, 'Yes', 'Yes'),
+(18, 'Veggie Pizza', 'Introducing our Veggie Pizza: a colorful medley of fresh vegetables on a perfectly baked crust. Topped with melted cheese for a delightful, satisfying bite. ', 10.00, 'Food_Name_6672.jpg', 12, 'Yes', 'Yes'),
+(19, 'Momo', 'Introducing our mouthwatering momos: delicate handmade dumplings filled with flavorful minced meat, veggies, and aromatic spices. Steamed to perfection and served with tangy dipping sauce.', 4.00, 'Food_Name_5995.jpg', 11, 'Yes', 'Yes');
 
 -- --------------------------------------------------------
 
@@ -155,13 +156,13 @@ ALTER TABLE `tbl_admin`
 -- AUTO_INCREMENT for table `tbl_category`
 --
 ALTER TABLE `tbl_category`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `tbl_food`
 --
 ALTER TABLE `tbl_food`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `tbl_order`
