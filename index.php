@@ -1,53 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Website</title>
-
-    <!-- link css file -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <!-- Navbar section Start -->
-    <section class="navbar">
-        <div class="container">
-            <div class="logo">
-                <a href="index.html"><img src="images/logo.png" alt="Restaurant-Logo" class="img-responsive"></a>
-            </div>
-
-            <div class="menu text-right">
-                <ul>
-
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-
-                    <li>
-                        <a href="categories.html">Categories</a>
-                    </li>
-
-                    <li>
-                        <a href="foods.html">Foods</a>
-                    </li>
-                
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-
-                </ul>
-                
-            </div>
-
-            <div class="clearfix"></div>
-        </div>
-    </section>
-    <!-- Navbar section End -->
+<?php 
+    include('partials-font/menu.php');
+?>
 
     <!-- Food Search Start -->
     <section class="food-search text-center">
         <div class="container">
-            <form action="food-search.html">
+            <form action="food-search.php">
                 <input type="search" name="search" placeholder="Search For Food.." required>
 
                 <input type="submit" name="submit" value="Search" class="btn btn-primary">
@@ -61,7 +19,7 @@
         <div class="container">
             <h2 class="text-center">Explore Foods</h2>
 
-            <a href="category-foods.html">
+            <a href="category-foods.php">
                 <div class="box-3 float-container">
                     <img src="images/pizza.jpg" alt="Pizza" class="img-responsive img-curve">
 
@@ -88,7 +46,7 @@
             <div class="clearfix"></div>
 
             <p class="text-center">
-                <a href="categories.html">See All Categories</a>
+                <a href="categories.php">See All Categories</a>
             </p>
         </div>
     </section>
@@ -112,7 +70,7 @@
                     </p>
                     <br>
 
-                    <a href="order.html" class="btn btn-primary">Order Now</a>
+                    <a href="order.php" class="btn btn-primary">Order Now</a>
                 </div>
             </div>
 
@@ -173,37 +131,11 @@
         </div>
 
         <p class="text-center">
-            <a href="foods.html">See All Foods</a>
+            <a href="foods.php">See All Foods</a>
         </p>
     </section>
     <!-- Food-Menu End -->
 
-    <!-- Social Start -->
-    <section class="social">
-        <div class="container text-center">
-            <ul>
-                <li>
-                    <a href="#"><img width="48" height="48" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="facebook-new"/></a>
-                </li>
-
-                <li>
-                    <a href="#"><img width="48" height="48" src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram-new--v1"/></a>
-                </li>
-
-                <li>
-                    <a href="#"><img width="48" height="48" src="https://img.icons8.com/color/48/twitter--v1.png" alt="twitter--v1"/></a>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <!-- Social End -->
-
-    <!-- Footer Start -->
-    <section class="footer">
-        <div class="container text-center">
-            <p>All rights reservers. Developed by <a href="https://github.com/Raisenil" target="_blank" rel="noopener">Raisenil</a> </p>
-        </div>
-    </section>
-    <!-- Footer End -->
-</body>
-</html>
+<?php 
+    include('partials-font/footer.php');
+?>

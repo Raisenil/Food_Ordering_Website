@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 14, 2023 at 10:59 AM
+-- Generation Time: Jul 14, 2023 at 08:19 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -64,8 +64,9 @@ CREATE TABLE `tbl_category` (
 --
 
 INSERT INTO `tbl_category` (`id`, `title`, `image_name`, `featured`, `active`) VALUES
-(5, 'MOMO', 'Food_Category_595.jpg', 'Yes', 'Yes'),
-(10, 'PIZZA', 'Food_Category_32.jpg', 'Yes', 'Yes');
+(11, 'MOMO', 'Food_Category_680.jpg', 'Yes', 'Yes'),
+(12, 'PIZZA', 'Food_Category_56.jpg', 'Yes', 'Yes'),
+(13, 'BURGER', 'Food_Category_888.jpg', 'Yes', 'Yes');
 
 -- --------------------------------------------------------
 
@@ -89,10 +90,8 @@ CREATE TABLE `tbl_food` (
 --
 
 INSERT INTO `tbl_food` (`id`, `title`, `description`, `price`, `image_name`, `category_id`, `featured`, `active`) VALUES
-(1, 'Nostrud culpa cumque', 'description', 309.00, '', 7, 'No', 'No'),
-(2, 'Ch Momo', 'description', 949.00, 'Food_Name_7612.jpg', 5, 'Yes', 'Yes'),
-(3, 'Ut incidunt quod qu', 'description', 982.00, '', 7, 'Yes', 'No'),
-(4, 'Dolorum sed ut vel s', 'description', 898.00, '', 5, 'No', 'No');
+(17, 'Iure harum dolore ad', 'Obcaecati commodi ofsdadfas', 38.00, 'Food_Name_8935.jpg', 11, 'Yes', 'Yes'),
+(18, 'Doloribus hic irure ', 'Commodi sed minim fu', 227.00, 'Food_Name_6672.jpg', 12, 'No', 'Yes');
 
 -- --------------------------------------------------------
 
@@ -156,13 +155,13 @@ ALTER TABLE `tbl_admin`
 -- AUTO_INCREMENT for table `tbl_category`
 --
 ALTER TABLE `tbl_category`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `tbl_food`
 --
 ALTER TABLE `tbl_food`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT for table `tbl_order`

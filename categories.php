@@ -1,50 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Website</title>
-
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <!-- Navbar section Start -->
-    <section class="navbar">
-        <div class="container">
-            <div class="logo">
-                <a href="index.html"><img src="images/logo.png" alt="Restaurant-Logo" class="img-responsive"></a>
-            </div>
-
-            <div class="menu text-right">
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-
-                    <li>
-                        <a href="categories.html">Categories</a>
-                    </li>
-
-                    <li>
-                        <a href="foods.html">Foods</a>
-                    </li>
-					
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="clearfix"></div>
-        </div>
-    </section>
-    <!-- Navbar section End -->
+<?php 
+    include('partials-font/menu.php');
+?>
 
 	<!-- Categories Section Start -->
 	<section class="categories">
 		<div class="container">
 			<h2 class="text-center">Explore Foods</h2>
-			<a href="category-foods.html">
+			<a href="category-foods.php">
 				<div class="box-3 float-container">
 					<img src="images/pizza.jpg" alt="Pizza" class="img-responsive img-curve">
 	
@@ -145,32 +107,6 @@
 	</section>
 	<!-- Categories Section End -->
 
-    <!-- Social Start -->
-    <section class="social">
-        <div class="container text-center">
-            <ul>
-                <li>
-                    <a href="#"><img width="48" height="48" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="facebook-new"/></a>
-                </li>
-
-                <li>
-                    <a href="#"><img width="48" height="48" src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram-new--v1"/></a>
-                </li>
-
-                <li>
-                    <a href="#"><img width="48" height="48" src="https://img.icons8.com/color/48/twitter--v1.png" alt="twitter--v1"/></a>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <!-- Social End -->
-
-    <!-- Footer Start -->
-    <section class="footer">
-        <div class="container text-center">
-            <p>All rights reservers. Developed by <a href="https://github.com/Raisenil" target="_blank" rel="noopener">Raisenil</a> </p>
-        </div>
-    </section>
-    <!-- Footer End -->
-</body>
-</html>
+	<?php 
+    include('partials-font/footer.php');
+?>
