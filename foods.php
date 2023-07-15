@@ -5,7 +5,7 @@
     <!-- Food Search Start -->
     <section class="food-search text-center">
         <div class="container">
-            <form action="food-search.php">
+            <form action="food-search.php" method="POST">
                 <input type="search" name="search" placeholder="Search For Food.." required>
 
                 <input type="submit" name="submit" value="Search" class="btn btn-primary">
@@ -22,7 +22,7 @@
             </h2>
 
             <?php
-            $sql2="SELECT * FROM tbl_food WHERE active='Yes'";
+                $sql2="SELECT * FROM tbl_food WHERE active='Yes'";
                 $res2=mysqli_query($conn,$sql2);
                 $count2=mysqli_num_rows($res2);
 

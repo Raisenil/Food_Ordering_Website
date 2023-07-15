@@ -5,7 +5,7 @@
     <!-- Food Search Start -->
     <section class="food-search text-center">
         <div class="container">
-            <form action="food-search.php">
+            <form action="food-search.php" method="POST">
                 <input type="search" name="search" placeholder="Search For Food.." required>
 
                 <input type="submit" name="submit" value="Search" class="btn btn-primary">
@@ -31,7 +31,7 @@
                         $image_name=$row['image_name'];
                         ?>
                 
-                        <a href="category-foods.php">
+                        <a href="category-foods.php?category_id=<?php echo $id;?>">
                             <div class="box-3 float-container">
                                 <?php 
                                     if($image_name==""){
