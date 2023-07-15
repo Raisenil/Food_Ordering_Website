@@ -11,6 +11,13 @@
             <a href="<?php echo SITEURL;?>admin/add-order.php" class="btn-primary">Add Order</a>
             <br><br><br>
 
+            <?php 
+                if(isset($_SESSION["update"])){
+                    echo $_SESSION["update"];
+                    unset($_SESSION["update"]);
+                }
+            ?>
+            <br>
             <table class="tbl-full">
                 <tr>
                     <th>S.N.</th>
@@ -41,7 +48,9 @@
                             $qty=$row['qty'];
                             $total=$row['total'];
                             $order_date=$row['order_date'];
+
                             $status=$row['status'];
+                            
                             $customer_name=$row['customer_name'];
                             $customer_contact=$row['customer_contact'];
                             $customer_email=$row['customer_email'];
@@ -54,13 +63,25 @@
                                     <td><?php echo $qty;?></td>
                                     <td><?php echo $total;?></td>
                                     <td><?php echo $order_date;?></td>
-                                    <td><?php echo $status;?></td>
+                                    <td>
+                                        <?php 
+                                            if($status=="Ordered"){
+                                                echo "<label style='color:gray'>$status</label>";
+                                            }elseif($status=="On Delivery"){
+                                                echo "<label style='color:orange'>$status</label>";
+                                            }elseif($status=="Delivered"){
+                                                echo "<label style='color:green'>$status</label>";
+                                            }elseif($status=="Cancelled"){
+                                                echo "<label style='color:red'>$status</label>";
+                                            }
+                                        ?>
+                                    </td>
                                     <td><?php echo $customer_name;?></td>
                                     <td><?php echo $customer_contact;?></td>
                                     <td><?php echo $customer_email;?></td>
                                     <td><?php echo $customer_address;?></td>
                                     <td>
-                                        <a href="update-order.php" class="btn-secondary">Update Order</a>
+                                        <a href="update-order.php?id=<?php echo $id;?>" class="btn-secondary">Update</a>
                                     </td>
                                 </tr>
                             <?php
