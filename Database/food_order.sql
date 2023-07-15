@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 15, 2023 at 11:04 AM
+-- Generation Time: Jul 15, 2023 at 10:45 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -111,8 +111,16 @@ CREATE TABLE `tbl_order` (
   `customer_name` varchar(150) NOT NULL,
   `customer_contact` varchar(20) NOT NULL,
   `customer_email` varchar(255) NOT NULL,
-  `customer_address` int(11) NOT NULL
+  `customer_address` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+--
+-- Dumping data for table `tbl_order`
+--
+
+INSERT INTO `tbl_order` (`id`, `food`, `price`, `qty`, `total`, `order_date`, `status`, `customer_name`, `customer_contact`, `customer_email`, `customer_address`) VALUES
+(3, 'Veggie Pizza', 10.00, 5, 50.00, '2023-07-15 06:57:50', 'Delivered', 'Sybil Ballard', '+1 (434) 616-6955', 'kelijuh@mailinator.com', 'Officiis adipisicing'),
+(4, 'Beef Burger', 5.00, 3, 15.00, '2023-07-15 07:00:24', 'Delivered', 'Tate Prince', '+1 (488) 227-1179', 'pozazi@mailinator.com', 'Ad sunt sit in maior');
 
 --
 -- Indexes for dumped tables
@@ -168,7 +176,7 @@ ALTER TABLE `tbl_food`
 -- AUTO_INCREMENT for table `tbl_order`
 --
 ALTER TABLE `tbl_order`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
