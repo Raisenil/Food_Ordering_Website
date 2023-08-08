@@ -92,7 +92,7 @@ Icon Packs
 
 To set up the Food Ordering website on your local machine, follow these steps:
 
-1\. Clone the repository from GitHub: `git clone <repository-url>`
+1\. Clone the repository from GitHub: `git clone https://github.com/Raisenil/Food_Ordering_Website.git`
 
 2\. Download and install XAMPP from the official website `(https://www.apachefriends.org/index.html)`. Follow the installation instructions for your operating system.
 
