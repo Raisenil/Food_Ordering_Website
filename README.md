@@ -33,7 +33,7 @@ The Category page shows the list of food category served by the website.
       <img src="images/Category-Restaurant-Website.png" alt="Category_Page">
     </td>
     <td>
-      <img src="images/Category-Food-Restaurant-Website.png" alt="Category_Food_Page">
+      <img src="images/Category-food-Restaurant-Website.png" alt="Category_Food_Page">
     </td>
   </tr>
 </table>
