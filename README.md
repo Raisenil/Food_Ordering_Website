@@ -1,4 +1,5 @@
 # Food_Order_Website
+
 Welcome to the Food Ordering Website Project where it serves as an online platform for users to conveniently order food from our site. With its user-friendly interface and features,  the website aims to enhance food ordering experience for customers.
 
 
@@ -10,19 +11,55 @@ Welcome to the Food Ordering Website Project where it serves as an online platfo
 #### Home Page
 
 The Home page serves as the main page of the food ordering website. Here Customer can Explore foods. See featured food menu and search their desired food.
+
 <table>
   <tr>
     <td>
       <img src="images/Web%20Design%20UI.png" alt="Web_Design_UI">
     </td>
     <td>
-      <img src="images/Search-Restaurant-Website.png" alt="Web_Design_UI">
+      <img src="images/Search-Restaurant-Website.png" alt="Search_Page">
     </td>
   </tr>
 </table>
+
 #### Category Page
 
 The Category page shows the list of food category served by the website.
+
+<table>
+  <tr>
+    <td>
+      <img src="images/Category-Restaurant-Website.png" alt="Category_Page">
+    </td>
+    <td>
+      <img src="images/Category-Food-Restaurant-Website.png" alt="Category_Food_Page">
+    </td>
+  </tr>
+</table>
+
+
+#### Foods Page
+This page show the list of Active Foods on the website. And by pressing Order Now button Customer can Order their Desired Food.
+
+<table>
+  <tr>
+    <td>
+      <img src="images/Food-Restaurant-Website.png" alt="Foods_Page">
+    </td>
+    <td>
+      <img src="images/Order-Restaurant-Website.png" alt="Order_Food_Page">
+    </td>
+  </tr>
+</table>
+
+#### Contact Page
+
+This is a simple contact Page where customers can contact with the service owners
+
+<img src="images/Contact-Restaurant-Website.png" alt="Contact_Page">
+
+### Admin Page
 
 
 
