@@ -1,4 +1,5 @@
 # Food_Order_Website
+Welcome to the Food Ordering Website Project where it serves as an online platform for users to conveniently order food from our site. With its user-friendly interface and features,  the website aims to enhance food ordering experience for customers.
 
 images collected from 
 - [unsplase](https://unsplash.com/)
@@ -11,28 +12,21 @@ for icon
 - [icons8](https://icons8.com/)
 - [iconic]https://ionic.io/ionicons
 
-
-# Project Overview: Food Ordering Website
-
-Welcome to the Food Ordering website documentation! This project serves as an online platform for users to conveniently order food from various restaurants. With its user-friendly interface and robust features, the website aims to enhance the food ordering experience for customers.
-
 ## Key Features:
 
-1\. Restaurant Listing: The website provides a comprehensive listing of restaurants available for food orders. Users can search for restaurants based on location, cuisine, or restaurant name, allowing them to find their desired options easily.
+### Main Website
 
-2\. Menu and Item Display: Each restaurant has a detailed menu display that includes item descriptions, prices, and special offers. Users can browse through the menu to explore various food options and make informed decisions.
+#### Home Page
 
-3\. User Registration and Authentication: To place an order, users need to create an account on the website. Registration requires basic information such as name, email, and password. Returning users can log in using their credentials, ensuring secure access to their accounts.
+The Home page serves as the main page of the food ordering website. Here Customer can Explore foods. See featured food menu and search their desired food.
 
-4\. Cart Management: Users can add food items to their cart while browsing through the menus. The cart keeps track of selected items, quantities, and total prices. Users can modify or remove items from the cart before proceeding to checkout.
+![Web_Design_UI](images/Web%20Design%20UI.png)
 
-5\. Order Placement: Once users have finalized their food selection, they can proceed to place their orders. They provide delivery details, such as address and contact information, ensuring accurate and efficient food delivery.
+#### Category Page
 
-6\. Payment Processing: The website supports secure online payment methods, allowing users to make payments electronically. Users can choose from a variety of payment options, ensuring convenience and flexibility.
+The Category page shows the list of food category served by the website.
 
-7\. Order Tracking: After placing an order, users can track its status in real-time. The website provides updates on order processing, estimated delivery times, and notifications when the order is out for delivery or delivered.
 
-8\. User Reviews and Ratings: Users can leave reviews and ratings for restaurants and food items based on their experience. This feature helps other users make informed decisions and provides valuable feedback to restaurant owners.
 
 ## Technologies Used:
 
