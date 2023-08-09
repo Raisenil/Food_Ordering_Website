@@ -69,7 +69,7 @@ By the above link user can login to Admin panel. Where user can change Food cate
 
 #### Login Page
 
-Here Admin can `login` with there Username and Password.
+Here Admin can `login` with there Username and Password. The login information are stored in **SESSION**.
 
 <img src="images/Food-Order-Website-Login-Page.png" alt="Login_Page">
 
@@ -111,9 +111,9 @@ In the `Category` section from the nav bar user can manage all Food Category. He
 
 By clicking `Add Category` button New Food category can be added by entering Category Title, category Image and setting Featured and active status.
 
-If Featured status is `YES` the category wil be featured in the main page.
+If Featured status is `YES` the category will be featured in the main page.
 
-If Active status is `YES` the category wil be Active in the `Category` (All category) page.
+If Active status is `YES` the category will be Active in the `Category` (All category) page.
 
 [Note: Only 1st 3 featured category's are showed on the main page. Without the Active status the Category can't be featured ]
 
@@ -124,6 +124,30 @@ By clicking `Update Category` button admin can change the selected categories Ti
 <img src="images/Food-Order-Website-Update-Category-Page.png" alt="Update_Category_Page">
 
 And By clicking `Delete Category` button admin can Delete the selected category.
+
+#### Manage Food Page
+
+In the `Food` section from the nav bar user can manage all Foods. Here Admin can add New Food, Update and Delete. Also admin can manage foods to be active or featured on the Main Food Ordering Website.
+
+<img src="images/Food-Order-Website-Manage-Food-Page.png" alt="Manage_Food_Page">
+
+By clicking `Add Food` button New Food can be added by entering Food Title, Short description, Price, Image, Category and setting Featured and active status.
+
+If Featured status is `YES` the Food will be featured in the main page.
+
+If Active status is `YES` the Food will be Active in the `Foods` (All Foods) page.
+
+[Note: Without the Active status the Food can't be featured ]
+
+<img src="images/Food-Order-Website-Add-Food-Page.png" alt="Add_Food_Page">
+
+By clicking `Update Food` button admin can change the selected Food Title, Description, Price, Image, Category, Featured and active status.
+
+<img src="images/Food-Order-Website-Update-Food-Page.png" alt="Update_Food_Page">
+
+And By clicking `Delete Food` button admin can Delete the selected Food.
+
+#### Manage Order Page
 
 ## Technologies Used:
 
