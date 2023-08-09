@@ -69,13 +69,13 @@ By the above link user can login to Admin panel. Where user can change Food cate
 
 #### Login Page
 
-Here Admin can login with there Username and Password.
+Here Admin can `login` with there Username and Password.
 
 <img src="images/Food-Order-Website-Login-Page.png" alt="Login_Page">
 
 #### Home Page
 
-Home page or Dashboard is the page where user is greeted after login.
+`Home page or Dashboard` is the page where user is greeted after login.
 
 Here user can see the quantity of Food categories, Foods, Orders and Total Revenue. 
 
@@ -83,7 +83,7 @@ Here user can see the quantity of Food categories, Foods, Orders and Total Reven
 
 #### Manage Admin Page
 
-In the Admin section from the nav bar user can manage all registered admin users. Here Admin can Remove other users update there information, password and add new Users
+In the `Admin` section from the nav bar user can manage all registered admin users. Here Admin can Remove other users update there information, password and add new Users
 
 <img src="images/Food-Order-Website-Manage-Admin-Page.png" alt="Admin_Page">
 
@@ -102,6 +102,28 @@ By clicking `Update Admin` button admin can change there there Full Name and Use
 <img src="images/Food-Order-Website-Update-Admin-Page.png" alt="Update_Admin_Page">
 
 By clicking `Delete Admin` button admin can delete their desired user from this list.
+
+#### Manage Category Page
+
+In the `Category` section from the nav bar user can manage all Food Category. Here Admin can add New Food Category, Update and Delete. Also admin can manage food categories to be active or featured on the Main Food Ordering Website.
+
+<img src="images/Food-Order-Website-Manage-Category-Page.png" alt="Manage_Category_Page">
+
+By clicking `Add Category` button New Food category can be added by entering Category Title, category Image and setting Featured and active status.
+
+If Featured status is `YES` the category wil be featured in the main page.
+
+If Active status is `YES` the category wil be Active in the `Category` (All category) page.
+
+[Note: Only 1st 3 featured category's are showed on the main page. Without the Active status the Category can't be featured ]
+
+<img src="images/Food-Order-Website-Add-Category-Page.png" alt="Add_Category_Page">
+
+By clicking `Update Category` button admin can change the selected categories Title, Image, Featured and active status.
+
+<img src="images/Food-Order-Website-Update-Category-Page.png" alt="Update_Category_Page">
+
+And By clicking `Delete Category` button admin can Delete the selected category.
 
 ## Technologies Used:
 
