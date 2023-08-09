@@ -8,6 +8,7 @@ Welcome to the Food Ordering Website Project where it serves as an online platfo
 
 ### Main Website
 ---
+> link: http://localhost/Food_Ordering_Website/
 
 #### Home Page
 
