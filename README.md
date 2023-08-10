@@ -149,6 +149,14 @@ And By clicking `Delete Food` button admin can Delete the selected Food.
 
 #### Manage Order Page
 
+In the `Order` section from the nav bar user can manage all Orders. Here Admin can view All Orders and Update it.
+
+<img src="images/Food-Order-Website-Manage-Order-Page.png" alt="Manage_Order_Page">
+
+And By clicking `Update` button admin can update the selected order status.
+
+<img src="images/Food-Order-Website-Update-Order-Page.png" alt="Update_Order_Page">
+
 ## Technologies Used:
 
 The Food Ordering website is developed using the following technologies:
