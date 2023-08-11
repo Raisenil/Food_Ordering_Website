@@ -197,9 +197,9 @@ Enter name as `food_order` and choose the appropriate collation (usually utf8_ge
 
 5\. Import the Backup by selecting it from the left sidebar. Click on the "Import" tab in the top menu. Click the "Choose File" button to select the .sql backup file from `Database\food_oder.sql`.Choose the default settings or adjust them based on your needs.Click the "Go" button to start the import process.
 
-6\. Update Configuration from `config\constants.php`
+7\. Update Configuration from `config\constants.php`
 
-5\. Access the website in your browser at `http://localhost:3000`.
+8\. Access the website in your browser at `http://localhost:3000`.
 
 ## Conclusion:
 
